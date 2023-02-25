@@ -22,5 +22,17 @@ function handleSymbol(symbol) {
       buffer = runningTotal;
       runningTotal = 0;
       break;
+    case "⇐"
+    buffer.length === 1 ? buffer = '0' : buffer = buffer.substring(0, buffer.length - 1)
+      break;
+    case "±";
+      let num = parseInt(buffer);
+    if (num > 0 ){
+      buffer = num - (num * )
+    }
+
+
+
+
   }
 }

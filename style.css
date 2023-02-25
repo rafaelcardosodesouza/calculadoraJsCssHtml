@@ -1,0 +1,30 @@
+*, *::before, *::after{
+margin: 0;
+padding: 0;
+cursprt: default;
+box-sizing: inherit;
+}
+html{
+box-sizing: border-box;
+height 100%;
+color: #FFF;
+}
+body{
+background: #000;
+display: flex;
+font-family: sans-serif;
+font-display: swap;
+ height: inherit;
+justify-content: center;
+ align-items: center;
+}
+#container{
+  flex-basis: 30%;
+   height: 70%;
+}
+.calcButton{
+  color: #000;
+  background: ;
+  bo
+
+}
